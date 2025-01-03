@@ -1,0 +1,168 @@
+[
+  {
+      "id": "mcocr_public_145014pudoo",
+      "words": [
+          "SIEU THI BACH HOA TONG HOP",
+          "Số 5 Cẩm Tây . Cẩm Phả - QN",
+          "Ngày: 09/08/2020 17:",
+          "Tổng công (đã gồm VAT)",
+          "70,000"
+      ],
+      "bboxes": [
+          [
+              202,
+              343,
+              543,
+              374
+          ],
+          [
+              246,
+              372,
+              498,
+              403
+          ],
+          [
+              407,
+              743,
+              592,
+              767
+          ],
+          [
+              157,
+              683,
+              373,
+              702
+          ],
+          [
+              522,
+              670,
+              587,
+              690
+          ]
+      ],
+      "ner_tags": [
+          "SELLER",
+          "ADDRESS",
+          "TIMESTAMP",
+          "TOTAL_COST",
+          "TOTAL_COST"
+      ],
+      "image_path": "mcocr_public_145014pudoo.jpg"
+  },
+  {
+        "id": "mcocr_public_145013unjxn",
+        "words": [
+            "PHẢ",
+            "104 Trần Phú - phường Cẩm Tây - Thành phố Cẩm",
+            "Phả - Quảng Ninh",
+            "Ngày: 10/05/2020 (09:12",
+            "Tổng thanh toán",
+            "65.000đ"
+        ],
+        "bboxes": [
+            [
+                276,
+                400,
+                307,
+                454
+            ],
+            [
+                300,
+                239,
+                340,
+                612
+            ],
+            [
+                328,
+                350,
+                354,
+                494
+            ],
+            [
+                498,
+                475,
+                520,
+                622
+            ],
+            [
+                721,
+                448,
+                753,
+                619
+            ],
+            [
+                713,
+                214,
+                747,
+                308
+            ]
+        ],
+        "ner_tags": [
+            "SELLER",
+            "ADDRESS",
+            "ADDRESS",
+            "TIMESTAMP",
+            "TOTAL_COST",
+            "TOTAL_COST"
+        ],
+        "image_path": "mcocr_public_145013unjxn.jpg"
+    },
+    {
+      "id": "mcocr_public_145013unjxn",
+      "words": [
+          "PHẢ",
+          "104 Trần Phú - phường Cẩm Tây - Thành phố Cẩm",
+          "Phả - Quảng Ninh",
+          "Ngày: 10/05/2020 (09:12",
+          "Tổng thanh toán",
+          "65.000đ"
+      ],
+      "bboxes": [
+          [
+              276,
+              400,
+              307,
+              454
+          ],
+          [
+              300,
+              239,
+              340,
+              612
+          ],
+          [
+              328,
+              350,
+              354,
+              494
+          ],
+          [
+              498,
+              475,
+              520,
+              622
+          ],
+          [
+              721,
+              448,
+              753,
+              619
+          ],
+          [
+              713,
+              214,
+              747,
+              308
+          ]
+      ],
+      "ner_tags": [
+          "SELLER",
+          "ADDRESS",
+          "ADDRESS",
+          "TIMESTAMP",
+          "TOTAL_COST",
+          "TOTAL_COST"
+      ],
+      "image_path": "mcocr_public_145013unjxn.jpg"
+  }
+]

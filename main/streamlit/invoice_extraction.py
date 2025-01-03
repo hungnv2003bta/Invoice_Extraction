@@ -11,7 +11,7 @@ from text_recognition import crop_text_by_bboxes
 from key_info_extraction import key_info_extraction
 
 def main():
-    image_path = '/Users/hungnguyen/Developer/repos/tensorflow/Final/MC_OCR/mc_ocr/main/streamlit/input_image/temp_mcocr_public_145014apodg.jpg'
+    image_path = '/Users/hungnguyen/Developer/repos/tensorflow/Final/MC_OCR/mc_ocr/data/mc_ocr_train_filtered/mcocr_public_145014apodg.jpg'
     image_name = os.path.basename(image_path)
 #---------------------------------------------------
     # ROTATE THE IMAGE
