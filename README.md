@@ -16,13 +16,13 @@ chmod +x install.sh
 ### 3. Một số File Quan trọng
 - **`main/result_with_threshold.json`**: Lưu kết quả xử lý cuối cùng.
 - **`main/Invoice_Extraction.ipynb`**: Notebook dùng để thực thi code từng bước, dễ dàng hình dung từng giai đoạn xử lý bài toán.
-- **`streamlit/invoice_extraction.py`**: Thực thi code và trả về kết quả xử lý dữ liệu.
-- **`streamlit/streamlit.py`**: File dùng để triển khai ứng dụng trên Streamlit.
+- **`main/streamlit/invoice_extraction.py`**: Thực thi code và trả về kết quả xử lý dữ liệu.
+- **`main/streamlit/app.py`**: File dùng để triển khai ứng dụng trên Streamlit.
 
 ### 4. Chạy Ứng dụng với Streamlit
 Thực thi lệnh sau để chạy ứng dụng Streamlit:
 ```bash
-streamlit run streamlit/streamlit.py
+streamlit run main/streamlit/app.py
 ```
 
 ## Link Dataset
