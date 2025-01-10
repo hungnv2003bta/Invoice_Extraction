@@ -76,7 +76,7 @@ def main():
         # Process the image and display the result
         if st.button("Process Image"):
             with st.spinner('Processing image...'):
-                image_path = f"./trash_folder/temp_{uploaded_file.name}"
+                image_path = f"./Users/hungnguyen/Developer/repos/tensorflow/Final/MC_OCR/mc_ocr/main/streamlit/trash_folder/temp_{uploaded_file.name}"
                 with open(image_path, "wb") as f:
                     f.write(uploaded_file.getbuffer())
                 
