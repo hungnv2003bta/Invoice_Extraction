@@ -1,6 +1,6 @@
 {
     "image_path": [
-        "/Users/hungnguyen/UIT/CS431/Invoice_Extraction/main/streamlit/trash_folder/temp_1.jpg"
+        "./trash_folder/temp_1.jpg"
     ],
     "bboxes": [
         [

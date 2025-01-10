@@ -22,7 +22,8 @@ chmod +x install.sh
 ### 4. Chạy Ứng dụng với Streamlit
 Thực thi lệnh sau để chạy ứng dụng Streamlit:
 ```bash
-streamlit run main/streamlit/app.py
+cd main/streamlit
+streamlit run app.py
 ```
 
 ## Link Dataset
