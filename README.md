@@ -5,7 +5,9 @@
 ### 1. Cài đặt Thư viện Cần thiết
 Cài đặt các thư viện trong file `requirements.txt` bằng lệnh sau:  
 ```bash
-pip install -r requirements.txt
+cd Invoice_Extraction
+chmod +x install.sh
+./install.sh
 ```
 
 ### 2. Cấu hình Đường dẫn

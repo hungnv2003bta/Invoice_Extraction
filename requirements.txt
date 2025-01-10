@@ -1,5 +1,4 @@
 paddleocr
-vietocr --no-deps
 streamlit
 pytesseract
 transformers
