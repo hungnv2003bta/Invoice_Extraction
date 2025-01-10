@@ -1,12 +1,7 @@
-matplotlib==3.10.0
-numpy==2.2.1
-opencv_contrib_python==4.10.0.84
-opencv_python==4.10.0.84
-opencv_python_headless==4.10.0.84
-paddleocr==2.9.1
-paddleocr.egg==info
-Pillow==11.1.0
-pytesseract==0.3.13
-torch==2.5.1
-transformers==4.46.3
-vietocr==0.3.13
+paddleocr
+vietocr --no-deps
+streamlit
+pytesseract
+transformers
+torchvision
+einops
