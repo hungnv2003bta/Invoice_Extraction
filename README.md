@@ -28,3 +28,7 @@ streamlit run app.py
 
 ## Link Dataset
 Dataset sử dụng trong dự án: [MC-OCR Scanned Receipt Dataset](https://www.kaggle.com/datasets/hariwh0/mcocr-scanned-receipt)
+
+## Link video hướng dẫn
+Youtube: https://youtu.be/2DJWgrwFo44
+
