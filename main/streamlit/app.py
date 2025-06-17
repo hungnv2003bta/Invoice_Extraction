@@ -19,7 +19,7 @@ def process_image(image_path):
         bboxes = bboxes.tolist()
 
     # Save the JSON data for image path and bounding boxes
-    detection_json = '/Users/hungnguyen/Developer/repos/tensorflow/Final/MC_OCR/mc_ocr/main/streamlit/trash_folder/detection_json.json'
+    detection_json = '/Users/hungnguyen/Code/invoice_extraction/Invoice_Extraction/main/streamlit/trash_folder/detection_json.json'
     # Clear the existing data by overwriting the file with an empty JSON object
     with open(detection_json, 'w') as json_file:
         json.dump({}, json_file)
@@ -55,7 +55,7 @@ def process_image(image_path):
         json.dump(data, json_file, ensure_ascii=False, indent=4)
 
     # Key information extraction using LayoutLMv2
-    final_json = '/Users/hungnguyen/Developer/repos/tensorflow/Final/MC_OCR/mc_ocr/main/streamlit/trash_folder/result_with_threshold.json'
+    final_json = '/Users/hungnguyen/Code/invoice_extraction/Invoice_Extraction/main/streamlit/trash_folder/result_with_threshold.json'
     threshold = 0.10
     key_info_extraction(detection_json, threshold, final_json)
 
